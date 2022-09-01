@@ -57,6 +57,17 @@ class MagicSushi @JvmOverloads constructor(
     }
 
     private val sushiGrid = IntArray(GRID_ROW * GRID_COLUMN)
+    // row * column
+    // O x 0  1  2  3  4  5  column
+    // y
+    // 0   0, 0, 0, 0, 0, 0,
+    // 1   0, 0, 0, 0, 0, 0,
+    // 2   0, 0, 0, 0, 0, 0,
+    // 3   0, 0, 0, 0, 0, 0,   
+    // 4   0, 0, 0, 0, 0, 0,
+    // 5   0, 0, 0, 0, 0, 0,
+    // 6   0, 0, 0, 0, 0, 0,
+    // row
 
     private val sushiRandom = Random
 
